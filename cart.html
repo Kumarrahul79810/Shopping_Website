@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <!-- <link rel="stylesheet" href="product.css" /> -->
+    <link rel="stylesheet" href="product_detail.css" />
+    <link rel="stylesheet" href="cart.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="row navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="" />
+      </div>
+      <nav class="navigation">
+        <ul class="nav">
+          <i class="fa-solid fa-xmark"></i>
+          <li class="nav-items"><a href="/index.html">Home</a></li>
+          <li class="nav-items"><a href="/Product.html">Product</a></li>
+          <li class="nav-items"><a href="">About</a></li>
+          <li class="nav-items"><a href="">Contact</a></li>
+          <li class="nav-items"><a href="">Account</a></li>
+        </ul>
+        <a href=""><img src="images/cart.png" alt="" class="cartImg" /></a>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+    </div>
+    <!-- ---------------------------------cart section------------------------------------------ -->
+    <div class="cart-container">
+      <table class="cart-table">
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <a href="/product_detail.html"
+                ><img src="images/gallery-1.jpg" alt=""
+              /></a>
+              <div class="item-detail">
+                <p class="item-title">Red Printed Tshirt</p>
+                <p class="item-price">Price: $50.00</p>
+                <p class="item-remove">Remove</p>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>$50.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <a href="/product_detail.html"
+                ><img src="images/product-2.jpg" alt=""
+              /></a>
+              <div class="item-detail">
+                <p class="item-title">Hrx Shoes</p>
+                <p class="item-price">Price: $50.00</p>
+                <p class="item-remove">Remove</p>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>$60.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <a href="/product_detail.html"
+                ><img src="images/product-3.jpg" alt=""
+              /></a>
+              <div class="item-detail">
+                <p class="item-title">Grey Joggers</p>
+                <p class="item-price">Price: $50.00</p>
+                <p class="item-remove">Remove</p>
+              </div>
+            </div>
+          </td>
+          <td><input type="number" value="1" /></td>
+          <td>$70.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>$180.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$35.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$105.00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+    
+    <!-- -----------------------footer----------------------- -->
+    <div class="footer">
+      <div class="row inner-footer">
+        <div class="col-4 footer-detail f1">
+          <h6>Download Our App</h6>
+          <p>download app for android and ios mobile phone</p>
+          <div class="apps">
+            <img src="images/play-store.png" alt="" />
+            <img src="images/app-store.png" alt="" />
+          </div>
+        </div>
+        <div class="col-4 footer-detail f2" id="f2">
+          <img src="images/logo-white.png" alt="" />
+          <p>
+            our purpose is to sustainably make the pleasure and benefits of
+            sport accessible to the many
+          </p>
+        </div>
+        <div class="col-4 footer-detail f3">
+          <h6>useful links</h6>
+          <ul>
+            <li><a href="">coupon</a></li>
+            <li><a href="">blog post</a></li>
+            <li><a href="">return policy</a></li>
+            <li><a href="">join affliate</a></li>
+          </ul>
+        </div>
+        <div class="col-4 footer-detail f4">
+          <h6>Follow us</h6>
+          <ul>
+            <li><a href="">facebook</a></li>
+            <li><a href="">twitter</a></li>
+            <li><a href="">instagram</a></li>
+            <li><a href="">youtube</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row copyright">copyright &#169; 2024 - Rahul Yadav</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

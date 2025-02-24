@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <!-- <link rel="stylesheet" href="product.css" /> -->
+    <link rel="stylesheet" href="product_detail.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="row navbar">
+      <div class="logo">
+        <a href="/index.html"><img src="images/logo.png" alt="" /></a>
+      </div>
+      <nav class="navigation">
+        <ul class="nav">
+          <i class="fa-solid fa-xmark"></i>
+          <li class="nav-items"><a href="/index.html">Home</a></li>
+          <li class="nav-items"><a href="/Product.html">Product</a></li>
+          <li class="nav-items"><a href="">About</a></li>
+          <li class="nav-items"><a href="">Contact</a></li>
+          <li class="nav-items"><a href="">Account</a></li>
+        </ul>
+        <a href="/cart.html"> <img src="images/cart.png" alt="" class="cartImg" /></a>
+        <i class="fa-solid fa-bars"></i>
+      </nav>
+    </div>
+    <!-- -------------------------------main contianer--------------- -->
+    <div class="small-container product-detail">
+      <div class="div-col-2 pdimg-section">
+        <div class="div-col-2 main-img">
+            <img src="images/gallery-1.jpg" id="product-img" alt="" />
+        </div>
+        <div class="div-col-2 other-img">
+          <div class="col-4 "><img class="img1 small-img" src="images/gallery-1.jpg" alt="" /></div>
+          <div class="col-4 "><img class="img2 small-img" src="images/gallery-2.jpg" alt="" /></div>
+          <div class="col-4 "><img class="img3 small-img" src="images/gallery-3.jpg" alt="" /></div>
+          <div class="col-4 "><img class="img4 small-img" src="images/gallery-4.jpg" alt="" /></div>
+        </div>
+      </div>
+      <div class="div-col-2 pd-info">
+        <p class="pd-home">Home / t-shirt</p>
+        <h2>Red printed tshirt by hrx</h2>
+        <p class="pd-price">$50.00</p>
+
+        <select>
+          <option>Select size</option>
+          <option>s</option>
+          <option>m</option>
+          <option>l</option>
+          <option>xl</option>s
+          <option>xxl</option>
+        </select>
+        <div class="add-to-cart">
+          <input type="number" min="1" max="5" value="1" />
+          <button>Add to cart</button>
+        </div>
+
+        <h5 class="product-detail-section">PRODUCT DETAIL <i class="fa fa-indent"></i></h5>
+        <p class="product-info">
+          give your summer wardrobe a style upgrade with the hrx mens active
+          tshirt .tea it with with a pair of short for morning workouts and
+          denims for an evening out with the guys
+        </p>
+      </div>
+    </div>
+    <!-- --------------------------All product---------------- -->
+    <div class="row related-product" id="related-product">
+      <h2>Related product</h2>
+      <button class="view-more-btn">view more</button>
+    </div>
+    <div class="row innerproduct">
+      <div class="col-4 product-item">
+        <img src="images/product-9.jpg" alt="" />
+        <h4>black sportsx watch</h4>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <p class="price">$40.00</p>
+      </div>
+      <div class="col-4 product-item">
+        <img src="images/product-2.jpg" alt="" />
+        <h4>HRX Sports shoes</h4>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+        <p class="price">$50.00</p>
+      </div>
+      <div class="col-4 product-item">
+        <img src="images/product-3.jpg" alt="" />
+        <h4>HRX Grey track pants</h4>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star-half-stroke"></i>
+        </div>
+        <p class="price">$55.00</p>
+      </div>
+      <div class="col-4 product-item">
+        <img src="images/product-4.jpg" alt="" />
+        <h4>Blue printed tshirt</h4>
+        <div class="stars">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+        </div>
+        <p class="price">$45.00</p>
+      </div>
+
+      <div class="view-more">
+        <div class="row innerproduct">
+          <div class="col-4 product-item">
+            <a href=""> <img src="images/product-9.jpg" alt="" /></a>
+            <h4>black sportsx watch</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="price">$40.00</p>
+          </div>
+          <div class="col-4 product-item">
+            <img src="images/product-2.jpg" alt="" />
+            <h4>HRX Sports shoes</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="price">$50.00</p>
+          </div>
+          <div class="col-4 product-item">
+            <img src="images/product-3.jpg" alt="" />
+            <h4>HRX Grey track pants</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="price">$55.00</p>
+          </div>
+          <div class="col-4 product-item">
+            <img src="images/product-4.jpg" alt="" />
+            <h4>Blue printed tshirt</h4>
+            <div class="stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <p class="price">$45.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- -----------------------footer----------------------- -->
+    <div class="footer">
+      <div class="row inner-footer">
+        <div class="col-4 footer-detail f1">
+          <h6>Download Our App</h6>
+          <p>download app for android and ios mobile phone</p>
+          <div class="apps">
+            <img src="images/play-store.png" alt="" />
+            <img src="images/app-store.png" alt="" />
+          </div>
+        </div>
+        <div class="col-4 footer-detail f2" id="f2">
+          <img src="images/logo-white.png" alt="" />
+          <p>
+            our purpose is to sustainably make the pleasure and benefits of
+            sport accessible to the many
+          </p>
+        </div>
+        <div class="col-4 footer-detail f3">
+          <h6>useful links</h6>
+          <ul>
+            <li><a href="">coupon</a></li>
+            <li><a href="">blog post</a></li>
+            <li><a href="">return policy</a></li>
+            <li><a href="">join affliate</a></li>
+          </ul>
+        </div>
+        <div class="col-4 footer-detail f4">
+          <h6>Follow us</h6>
+          <ul>
+            <li><a href="">facebook</a></li>
+            <li><a href="">twitter</a></li>
+            <li><a href="">instagram</a></li>
+            <li><a href="">youtube</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <div class="row copyright">copyright &#169; 2024 - Rahul Yadav</div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
